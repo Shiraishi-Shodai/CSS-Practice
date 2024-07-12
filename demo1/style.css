@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+header h1 {
+  padding: 10px 0px;
+  line-height: 1px;
+  width: 120px;
+}
+header h1 a {
+  background-color: transparent;
+  display: block;
+}
+header h1 a img {
+  max-width: 100%;
+}
+header nav {
+  display: inline-block;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 10px 0px;
+}
+header nav ul li {
+  padding-left: 30px;
+  font-size: 0.9rem;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  text-align: center;
+}
+#wrapper h2 {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+main .mainvisual img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 3%;
+}
+main .group1 .contain {
+  display: flex;
+  justify-content: center;
+}
+main .group1 .contain img {
+  border-radius: 50%;
+  width: 10%;
+  height: 5%;
+  margin-right: 20px;
+}
+main .group1 .contain h3 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+main .group1 .contain p {
+  font-size: 0.9rem;
+}
+main .group2 h2 {
+  border-bottom: 1px black solid;
+  display: inline-block;
+}
+main .group2 ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+main .group2 ul li h3 {
+  margin: 10px 0px;
+}
+main .group2 ul li img {
+  width: 90%;
+}/*# sourceMappingURL=style.css.map */
